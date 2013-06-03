@@ -1,0 +1,87 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="UpgradeSettings" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Usernames" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AutoLogin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AutoResizeGameColumns" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Autoscroll" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">90000000</Value>
+    </Setting>
+    <Setting Name="EnableSounds" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="MaximizeLobbyOnLogin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MinimizeToSystemTray" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RevertToChatAfterWhisper" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowIconInSystemTray" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowTimestamps" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DefaultAdapter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ButtonColorTopGradient" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-9404272</Value>
+    </Setting>
+    <Setting Name="ButtonColorBottomGradient" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-16777216</Value>
+    </Setting>
+    <Setting Name="ChatColorBackground" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-16777216</Value>
+    </Setting>
+    <Setting Name="ChatColorHyperlink" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-12156236</Value>
+    </Setting>
+    <Setting Name="ChatColorUserLink" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1465367</Value>
+    </Setting>
+    <Setting Name="ChatColorChatText" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="ChatColorEmoteText" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-7274497</Value>
+    </Setting>
+    <Setting Name="ChatColorWhisperText" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-7274608</Value>
+    </Setting>
+    <Setting Name="ChatColorAlertText" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-28528</Value>
+    </Setting>
+    <Setting Name="ChatColorWarningText" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-112</Value>
+    </Setting>
+    <Setting Name="ChatColorServerText1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-5592321</Value>
+    </Setting>
+    <Setting Name="ChatColorServerText2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-5197648</Value>
+    </Setting>
+    <Setting Name="EnableBadLanguageFilter" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EnableSmilies" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

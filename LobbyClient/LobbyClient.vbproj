@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C9BFA46-9540-447A-BC42-EEFFE6CD0204}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LobbyClient.My.MyApplication</StartupObject>
+    <RootNamespace>LobbyClient</RootNamespace>
+    <AssemblyName>LobbyClient</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>client.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://www.save-ee.com/lobby/publish/</UpdateUrl>
+    <SupportUrl>http://www.save-ee.com/</SupportUrl>
+    <ProductName>Save-EE Lobby Client</ProductName>
+    <PublisherName>Save-EE</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LobbyClient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LobbyClient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>LobbyClient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>LobbyClient.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>LobbyClient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>LobbyClient.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>263C583C29BDFFFCB373C5412DABC06681ADB4BB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LobbyClient_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminCheck.vb" />
+    <Compile Include="FormPatch.Designer.vb">
+      <DependentUpon>FormPatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVote.Designer.vb">
+      <DependentUpon>FormVote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IdleTime.vb" />
+    <Compile Include="ClientEngine.vb" />
+    <Compile Include="FormKeyList.Designer.vb">
+      <DependentUpon>FormKeyList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormKeyList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLobby.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLobby.Designer.vb">
+      <DependentUpon>FormLobby.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormManualOperation.Designer.vb">
+      <DependentUpon>FormManualOperation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormManualOperation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSnap.Designer.vb">
+      <DependentUpon>FormSnap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSnap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdate.Designer.vb">
+      <DependentUpon>FormUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameDetailsParser.vb" />
+    <Compile Include="Globals.vb" />
+    <Compile Include="LanguageDialog.Designer.vb">
+      <DependentUpon>LanguageDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListViewHelpers.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PatchEngine.vb" />
+    <Compile Include="UpdateDialog.Designer.vb">
+      <DependentUpon>UpdateDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateFile.vb" />
+    <Compile Include="WIN32MEMORY.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormKeyList.resx">
+      <DependentUpon>FormKeyList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLobby.resx">
+      <DependentUpon>FormLobby.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormManualOperation.resx">
+      <DependentUpon>FormManualOperation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPatch.resx">
+      <DependentUpon>FormPatch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSnap.resx">
+      <DependentUpon>FormSnap.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdate.resx">
+      <DependentUpon>FormUpdate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVote.resx">
+      <DependentUpon>FormVote.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageDialog.resx">
+      <DependentUpon>LanguageDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDialog.resx">
+      <DependentUpon>UpdateDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ask2Join.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueCheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firewall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flashlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameClosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ignored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InviteNot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Joystick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moderator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Muted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkillAdvanced.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkillExpert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkillIntermediate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkillNovice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tombstone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FriendJoined.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FriendLeft.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhisperRecv.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheater_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheater_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friends_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friends_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ignore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whisper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friends_offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomPanels\CustomPanels.vbproj">
+      <Project>{68071575-967B-4A34-8E94-1E6758FEAC0A}</Project>
+      <Name>CustomPanels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Language\Language.vbproj">
+      <Project>{EC0A535E-2324-458E-B9C0-2EB0D62B9EE8}</Project>
+      <Name>Language</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LobbyShared\LobbyShared.vbproj">
+      <Project>{A106415A-D1F6-44C8-B177-30CB0A9BA05B}</Project>
+      <Name>LobbyShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Network\Network.vbproj">
+      <Project>{3C621EE1-1579-4E10-951C-C4A17CB57408}</Project>
+      <Name>Network</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="client.ico" />
+    <None Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="update.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eeaoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eeboth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AFK_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ignore_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="patch.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
